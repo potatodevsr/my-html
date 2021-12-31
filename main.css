@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    height: 1145px;
+    background: url('/photo1.jpg')no-repeat;
+    background-position: right bottom 400px;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+nav{
+    height: 60px;
+    top: 35px;
+    /* border: 1px solid red; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 225px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+nav ul li{
+    margin-right: 35px;
+}
+nav ul li a {
+    text-decoration:none;
+}
+.logo {
+    margin: 35px;
+    top: 500px;
+}
+
+.login{
+    font-size: 15px;
+    text-align: center;
+    width: 132px;
+    color: #FB8F1D;
+    background-color:white;
+    height: 44px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FB8F1D;
+}
+.register{
+    font-size: 15px;
+    text-align: center;
+    width: 132px;
+    color:whitesmoke;
+    background-color:#FB8F1D;
+    height: 44px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FB8F1D;
+
+}
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+}
+.header btn{
+    border-radius: 8px;
+}
