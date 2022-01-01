@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="main.css">
     <script type="text/javascript" src="https://livejs.com/live.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
-    integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -34,34 +38,149 @@
                     <div class="nav-btn">
                         <a href="#" class="login">Login</a>
                     </div>
-                    <div class="nav-btn1 ml-4"> 
+                    <div class="nav-btn1 ml-4">
                         <a href="#" class="register">Register</a>
                     </div>
                 </div>
             </nav>
-                <h1 class="text-3xl font-bold">Explore and <br >Travel</h1>
-            <section class="header-info pt-10">
-                <dir class="header-title">
-                    <h2 class="font-bold">Holiday finder</h2>
-                </dir>
-                <div class="header-btn flex">
-                    <div class="nav-btn1 justify-between"> 
-                         <a href="#" class="location">Location</a>
+            <section class="flex w-full items-center mt-4 justify-between">
+                <div class="flex-1">
+                    <h1 class="text-3xl font-bold">Explore and <br>Travel</h1>
+                    <div class="header-info pt-10">
+                        <div class="header-title">
+                            <h2 class="font-bold">Holiday finder</h2>
+                            <span class="line">
+                                <img src="Rectangle 29.jpeg" alt="">
+                            </span>
+                        </div>
+                        <div class="flex flex-wrap my-select-container">
+                            <select class="my-select w-5/12" name="Location" id="Location">
+                                <option value="location">Location</option>
+                                <option value="bangkok">Bangkok</option>
+                                <option value="pattaya">Pattaya</option>
+                                <option value="yala">Yala</option>
+                            </select>
+                            <select class="my-select w-5/12" name="Activity" id="Activity">
+                                <option value="activity">Activity</option>
+                                <option value="sleep">Sleep</option>
+                                <option value="exercise">Exercise</option>
+                                <option value="drink">Drink</option>
+                            </select>
+                            <select class="my-select w-5/12" name="Grade" id="Grade">
+                                <option value="grade">Grade</option>
+                                <option value="1star">1 Star</option>
+                                <option value="2star">2 Star</option>
+                                <option value="3star">3 Star</option>
+                            </select>
+                            <select class="my-select w-5/12" name="Date" id="Date">
+                                <option value="date">Date</option>
+                                <option value="mondayr">Mondayr</option>
+                                <option value="wednesda">Wednesda</option>
+                                <option value="sunday">Sunday</option>
+                            </select>
+                            <button class="explore" type="explore">Explore</button>
+                        </div>
                     </div>
-                    <div class="nav-btn1 ml-4">
-                        <a href="#" class="activity">activity</a>
-                    </div>
+
                 </div>
-                <div class="header-btn flex">
-                    <div class="nav-btn1 justify-between">
-                        <a href="#" class="grade">Grade</a>
+                <div class="flex-1">
+                    <img src="photo1.jpg" alt="Header big image">
+                </div>
+                <div>
+
+                </div>
+            </section>
+            <section class="flex w-full items-center mt-4 justify-between">
+                <div class="flex-1">
+                    <img src="flex2.jpeg" alt="">
+                </div>
+                <div class="flex-1">
+                    <h1 class="text-3xl font-bold">A new way to explore the world</h1>
+                    <p class="textp">For decades travellers have reached for Lonely Planet books when looking to plan
+                        and execute their perfect
+                        trip, but now, they can also let Lonely Planet Experiences lead the way
+                    </p>
+                    <button class="learnmore" type="Learn more">Learn more</button>
+                </div>
+            </section>
+            <section>
+                <nav>
+                    <h1 class="texth1 font-bold">Featured destinations</h1>
+                    <button class="viewall" type="View all">View all ></button>
+                </nav>
+            </section>
+            <section>
+                <div class="grid-card">
+                    <div class="box relative bg1">
+                        <img class="w-full h-auto rounded-lg" src="image 1.jpeg" alt="">
+                        <div class="bg-white rounded-lg absolute left-0 bottom-0 p-2 max-w-48">
+                            <h2>Raja Ampat</h2>
+                            <h1>Indonesia</h1>
+                        </div>
                     </div>
-                    <div class="nav-btn1 ml-4">
-                         <a href="#" class="date">Date</a>
+                    <div class="box relative bg2">
+                        <img class="w-full h-auto rounded-lg" src="image2.jpg" alt="">
+                        <div class="bg-white rounded-lg absolute left-0 bottom-0 p-2 max-w-48">
+                            <h2>Raja Ampat</h2>
+                            <h1>Indonesia</h1>
+                        </div>
+                    </div>
+                    <div class="box relative bg3">
+                        <img class="w-full h-auto rounded-lg" src="image3.jpg" alt="">
+                        <div class="bg-white rounded-lg absolute left-0 bottom-0 p-2 max-w-48">
+                            <h2>Raja Ampat</h2>
+                            <h1>Indonesia</h1>
+                        </div>
+                    </div>
+                    <div class="box relative bg4">
+                        <img class="w-full h-auto rounded-lg" src="image4.png" alt="">
+                        <div class="bg-white rounded-lg absolute left-0 bottom-0 p-2 max-w-48">
+                            <h2>Raja Ampat</h2>
+                            <h1>Indonesia</h1>
+                        </div>
                     </div>
                 </div>
             </section>
+            <section class="flex w-full items-center mt-4 justify-between">
+                <div class="flex-1">
+                    <h1 class="text-3xl font-bold ">Guides by Thousand Sunny</h1>
+                    <p class="textp">Packed with tips and advice from our on-the-ground experts, our city guides app
+                        (iOS and Android) is the ultimate resource before and during a trip.
+                    </p>
+                    <button class="explore" type="download margin-top=33px">Download</button>
+                </div>
+                <div class="flex-1">
+                    <img src="image5.png" alt="Header big image">
+                </div>
+            </section>
+            <section>
+                <nav>
+                    <h1 class="texth1 font-bold">Testimonials</h1>
+                </nav>
+            </section>
+            <section class="flex w-full items-center mt-4 justify-between">
+                <div class="flex-1">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <h1 class="text-3xl font-bold">A new way to explore the world</h1>
+                    <p class="textp">For decades travellers have reached for Lonely Planet books when looking to plan
+                        and execute their perfect
+                        trip, but now, they can also let Lonely Planet Experiences lead the way
+                    </p>
+                </div>
+                <div class="flex-1">
+                    <img src="image 6.png" alt="">
+                </div>
+            </section>
+        </div>
+        </section>
+        </div>
+        </section>
         </div>
     </header>
 </body>
+
 </html>

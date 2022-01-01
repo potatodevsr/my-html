@@ -1,34 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-header{
-    height: 1145px;
-    background: url('/photo1.jpg')no-repeat;
-    background-position: right bottom 400px;
-}
-.container{
-    max-width: 1110px;
-    margin: 0 auto;
-}
 nav{
     height: 60px;
     top: 35px;
-    /* border: 1px solid red; */
+    width: 100%;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 35px;
 }
 nav ul{
     display: flex;
     list-style: none;
-    width: 225px;
-    /* border: 1px solid red; */
     justify-content: space-between;
 }
 nav ul li{
@@ -37,11 +29,6 @@ nav ul li{
 nav ul li a {
     text-decoration:none;
 }
-.logo {
-    margin: 35px;
-    top: 500px;
-}
-
 .login{
     font-size: 15px;
     text-align: center;
@@ -69,13 +56,94 @@ nav ul li a {
     border: 1px solid #FB8F1D;
 
 }
-h1{
-    font-family: 'Abril Fatface', cursive;
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
 }
-h2{
+.my-select{
+    border: 1px solid gray;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.my-select-container{
+    margin: 0 -15px;
+}
+.explore{
+    margin: 15px;
+    font-size: 15px;
+    text-align: center;
+    width: 132px;
+    color:whitesmoke;
+    background-color:#FB8F1D;
+    height: 44px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FB8F1D;
+}
+p.textp{
+    margin-top: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+.learnmore{
+    margin-top: 33px;
+    font-size: 15px;
+    text-align: center;
+    width: 132px;
+    color:whitesmoke;
+    background-color:#FB8F1D;
+    height: 44px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FB8F1D;
+
+}
+.texth1{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+button.viewall {
+    color: #FB8F1D;
+    size: 17px;
+}
+.grid-card {
+    display: flex;
+    grid-gap: 30px;
+}
+.grid-card .box{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+button.explore {
+    margin-top: 33px;
+}
+img {
+    margin-top: 0px;
+}
+.checked {
+    color: orange;
+  }
+h2.star {
+    margin-top: 135px;
+}
+.nameman{
     font-family: 'Inter', sans-serif;
+}
+h2.h2.font-bold {
     font-size: 22px;
 }
-.header btn{
-    border-radius: 8px;
+.bg-white.rounded-lg.absolute.right-0.bottom-0.p-2.max-w-100 {
+    display: flex;
+}
+img.img1 {
+    margin-right: 11px;
 }
