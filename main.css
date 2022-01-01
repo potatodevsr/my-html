@@ -138,12 +138,56 @@ h2.star {
 .nameman{
     font-family: 'Inter', sans-serif;
 }
-h2.h2.font-bold {
-    font-size: 22px;
-}
 .bg-white.rounded-lg.absolute.right-0.bottom-0.p-2.max-w-100 {
     display: flex;
 }
 img.img1 {
     margin-right: 11px;
+}
+h2.h2.font-bold {
+    margin-top: 40px;
+    font-size: 22px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 10px
+  }
+  
+  .previous {
+    background-color: rgb(211, 202, 202);
+    color: grey
+  }
+  .next {
+    background-color: black;
+    color:white;
+  }
+  .round {
+    border-radius: 50%;
+    border-radius: 8px
+  }
+  img.man {
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    box-sizing: border-box;
+    width: 50%;
+}
+h2.image7.font-bold {
+    padding-top: 13px;
+}
+p.textp {
+    padding-top: 13px;
+}
+h2 {
+    padding-top: 13px;
+}
+element.style {
+    padding-top: 24px;
 }
