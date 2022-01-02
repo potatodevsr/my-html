@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,13 +11,10 @@
     font-family: 'Inter', sans-serif;
 }
 nav{
-    height: 60px;
-    top: 35px;
-    width: 100%;
-    display:flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 35px;
+    margin-bottom: 27px;
 }
 nav ul{
     display: flex;
@@ -179,15 +177,9 @@ a {
     box-sizing: border-box;
     width: 50%;
 }
-h2.image7.font-bold {
-    padding-top: 13px;
-}
-p.textp {
-    padding-top: 13px;
-}
-h2 {
-    padding-top: 13px;
-}
-element.style {
-    padding-top: 24px;
+
+section.lasttext {
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
 }
