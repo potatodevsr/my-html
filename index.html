@@ -16,20 +16,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/index.js"></script>
 </head>
-
 <body>
     <header>
-        <div class="container">
-            <nav class="h-14 top-6 w-full flex">
+        <div class="container max-w-screen-lg m-auto">
+            <nav class="h-14 top-6 w-full justify-between flex items-center">
                 <div class="logo">
                     <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="20.5" cy="20.5" r="20.5" fill="#1ABE84" />
+                        <circle cx="20.5" cy="20.5" r="20.5" fill="#1ABE84">
                         <circle cx="20.5" cy="20.5" r="9" fill="#FB8F1D" stroke="white" stroke-width="3" />
                     </svg>
                 </div>
-                <ul>
+                <ul class="justify-betwe en flex list-none">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Destinations</a></li>
                     <li><a href="#">About</a></li>
@@ -37,16 +39,19 @@
                 </ul>
                 <div class="flex">
                     <div class="nav-btn">
-                        <a href="#" class="login">Login</a>
+                        <a href="#" class="login text-center justify-center items-center 
+                        flex bg-white text-yellow-600">Login</a>
                     </div>
                     <div class="nav-btn1 ml-4">
-                        <a href="#" class="register">Register</a>
+                        <a href="#" class="register text-center justify-center 
+                        tems-center flex bg-yellow-600 text-white">Register</a>
                     </div>
                 </div>
             </nav>
-            <section class="flex w-full items-center mt-4 justify-between">
+            <section class="flex w-full items-center mt-4">
                 <div class="flex-1">
-                    <h1 class="text-3xl font-bold">Explore and <br>Travel</h1>
+                    <h1 class="font-bold text-6xl  flex m-auto">
+                        Explore and <br>Travel</h1>
                     <div class="header-info pt-10">
                         <div class="header-title">
                             <h2 class="font-bold">Holiday finder</h2>
@@ -54,41 +59,40 @@
                                 <img src="Rectangle 29.jpeg" alt="">
                             </span>
                         </div>
-                        <div class="flex flex-wrap my-select-container">
-                            <select class="my-select w-5/12" name="Location" id="Location">
+                        <div class="flex flex-wrap my-select-container m-1.5">
+                            <select class="my-select w-5/12 p-1 rounded-md m-2.5" name="Location" id="Location">
                                 <option value="location">Location</option>
                                 <option value="bangkok">Bangkok</option>
                                 <option value="pattaya">Pattaya</option>
                                 <option value="yala">Yala</option>
                             </select>
-                            <select class="my-select w-5/12" name="Activity" id="Activity">
+                            <select class="my-select w-5/12 p-1 rounded-md m-2.5" name="Activity" id="Activity">
                                 <option value="activity">Activity</option>
                                 <option value="sleep">Sleep</option>
                                 <option value="exercise">Exercise</option>
                                 <option value="drink">Drink</option>
                             </select>
-                            <select class="my-select w-5/12" name="Grade" id="Grade">
+                            <select class="my-select w-5/12 p-1 rounded-md m-2.5" name="Grade" id="Grade">
                                 <option value="grade">Grade</option>
                                 <option value="1star">1 Star</option>
                                 <option value="2star">2 Star</option>
                                 <option value="3star">3 Star</option>
                             </select>
-                            <select class="my-select w-5/12" name="Date" id="Date">
+                            <select class="my-select w-5/12 p-1 rounded-md m-2.5" name="Date" id="Date">
                                 <option value="date">Date</option>
                                 <option value="mondayr">Mondayr</option>
                                 <option value="wednesda">Wednesda</option>
                                 <option value="sunday">Sunday</option>
                             </select>
-                            <button class="explore" type="explore">Explore</button>
+                            <button class="explore login text-center justify-center items-center 
+                            flex bg-yellow-600 text-white" type="explore">Explore</button>
                         </div>
                     </div>
-
                 </div>
                 <div class="flex-1">
                     <img src="photo1.jpg" alt="Header big image">
                 </div>
                 <div>
-
                 </div>
             </section>
             <section class="flex w-full items-center mt-4 justify-between">
@@ -101,17 +105,19 @@
                         and execute their perfect
                         trip, but now, they can also let Lonely Planet Experiences lead the way
                     </p>
-                    <button class="learnmore" type="Learn more">Learn more</button>
+                    <button class="learnmore items-center bg-yellow-600 text-white 
+                    flex  m-1.5 justify-center top-7" type="Learn more">Learn more</button>
                 </div>
             </section>
             <section>
                 <nav>
-                    <h1 class="texth1 font-bold">Featured destinations</h1>
-                    <button class="viewall" type="View all">View all ></button>
+                    <h1 class="texth1 font-bold flex list-none
+                    justify-between">Featured destinations</h1>
+                    <button class="viewall" type="View all justify-between">View all ></button>
                 </nav>
             </section>
             <section>
-                <div class="grid-card">
+                <div class="grid-card flex gap-8 ">
                     <div class="box relative bg1">
                         <img class="w-full h-auto rounded-lg" src="image 1.jpeg" alt="">
                         <div class="bg-white rounded-lg absolute left-0 bottom-0 p-2 max-w-48">
@@ -148,7 +154,7 @@
                     <p class="textp">Packed with tips and advice from our on-the-ground experts, our city guides app
                         (iOS and Android) is the ultimate resource before and during a trip.
                     </p>
-                    <button class="explore" type="download margin-top=33px">Download</button>
+                    <button class="explore mt-2" type="download margin-top=33px">Download</button>
                 </div>
                 <div class="flex-1 ">
                     <img src="image5.png" alt="Header big image">
@@ -159,8 +165,9 @@
                     <h1 class="texth1 font-bold">Testimonials</h1>
                 </nav>
             </section>
-            <section class="flex w-full items-center mt-4 justify-between">
-                <div class="flex-1">
+            <section class="flex w-full items-center mt-4 
+            justify-between ">
+                <div class="flex-1 star">
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -172,23 +179,28 @@
                     <h2 class="h2 font-bold">Edward Newgate</h2>
                     <h1>Founder Circle</h1>
                 </div>
-                <div class="flex-1 ">
-                    <div class="box relative bg5 flex">
-                        <div class="relative">
-                            <img class="man" src="image 6.png" alt="Header big image ">
-                            <div class="bg-white rounded-lg absolute right-0 bottom-0 p-2 max-w-48">
-                                <a href="#" class="previous round">&#8249;</a>
-                                <a href="#" class="next round">&#8250;</a>
-                            </div>
+                <div class="flex-1 w-1/2 relative">
+                    <div class="js-slick box relative bg5 flex">
+                        <div class="box">
+                            <img class="man" src="image 6.png" alt="image">
                         </div>
+                        <div class="box">
+                            <img class="man" src="image 6.png" alt="image">
+                        </div>
+                        
                     </div>
+                    <div class="bg-white rounded-lg absolute left-0 bottom-0 p-2 max-w-48">
+                        <button href="#" type="button" class="js-prev w-8 h-8 previous round">&#8249;</button>
+                        <button href="#" type="button" class="js-next w-8 h-8 next round">&#8250;</button>
+                    </div>
+                    
                 </div>
             </section>
             <section>
                 <div>
                     <nav>
                         <h1 class="texth1 font-bold">Trending stories</h1>
-                        <button class="viewall" type="View all">View all ></button>
+                        <button class="viewall text-red-600 " type="View all">View all ></button>
                     </nav>
                     <div>
                         <div class="footer flex">
@@ -273,9 +285,6 @@
                     </ul>
                 </div>
             </section>
-            <div class="new1">
-                <hr class="new1">
-            </div>
         </div>
     </header>
 </body>
